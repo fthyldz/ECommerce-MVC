@@ -18,6 +18,7 @@ Bu proje, .NET Core tabanlı bir web uygulamasıdır. Clean Architecture, CQRS, 
 - .NET Core Identity ile kullanıcı kimlik doğrulama ve yetkilendirme işlemleri yapılmaktadır.
 - Generic Repository ve Unit of Work desenleri kullanılarak veritabanı işlemleri yönetilmektedir.
 - Kullanıcılar kayıt olduktan sonra otomatik olarak "User" rolü atanır.
+- Proje ayağa kalkarken Database Update işlemi gerçekleşerek Database otomatik olarak oluşmaktadır.
 - Uygulama başlangıcında arka planda otomatik olarak Admin ve VIP kullanıcı hesapları oluşturulur.
 
 ## Kullanılan Teknolojiler
