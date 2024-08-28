@@ -1,0 +1,8 @@
+﻿services:
+  ecommerceapp:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ASPNETCORE_HTTP_PORTS=8080
+      - ConnectionStrings__DefaultConnection=DataSource=app.db;Cache=Shared
+    ports:
+      - "6001:8080"

@@ -1,0 +1,45 @@
+@model Application.Queries.Products.GetProducts.ProductDto
+@{
+    ViewData["Title"] = Model.Name;
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <h2>Ürün Detay</h2>
+        <hr/>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-floating mb-3">
+                    <input disabled="disabled" asp-for="Name" class="form-control"/>
+                    <label asp-for="Name" class="form-label">Ürün Adı</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input disabled="disabled" asp-for="Description" class="form-control"/>
+                    <label asp-for="Description" class="form-label">Ürün Açıklaması</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input disabled="disabled" asp-for="Price" class="form-control"/>
+                    <label asp-for="Price" class="form-label">Fiyatı</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input disabled="disabled" asp-for="CurrencyString" class="form-control"/>
+                    <label asp-for="CurrencyString" class="form-label">Para Birimi</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input disabled="disabled" asp-for="StockQuantity" class="form-control" type="number" min="0" step="1"/>
+                    <label asp-for="StockQuantity" class="form-label">Stok</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input disabled="disabled" asp-for="CategoryName" class="form-control"/>
+                    <label asp-for="CategoryName" class="form-label">Kategori</label>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-12">
+                <a asp-action="Index" class="btn btn-secondary">Listeye Dön</a>
+            </div>
+        </div>
+    </div>
+</div>
