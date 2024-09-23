@@ -1,4 +1,4 @@
-# ECommerce
+# ECommerce-MVC
 
 Bu proje, .NET Core tabanlı bir web uygulamasıdır. Clean Architecture, CQRS, Fluent Validation, AutoMapper, .NET Core Identity, Generic Repository ve Unit of Work gibi modern yazılım geliştirme tekniklerini içermektedir.
 
